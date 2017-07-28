@@ -1,3 +1,4 @@
+/*############# Default styles ################*/
 html {
 	font-size: 18px;
 	font-family: helvetica;
@@ -18,6 +19,7 @@ nav {
 	padding-top: 1rem;
 	overflow: hidden;
 }
+/*################# Menu section ###################*/
 div.menu {
 	display: flex;
 	justify-content: space-between;
@@ -71,6 +73,7 @@ div.inner-heading h1 {
 	float: right;
 	overflow: hidden;
 }
+/*############### Service section #####################*/
 section.services {
 	display: flex;
 	width: 100%;
@@ -106,6 +109,7 @@ div.service h2 {
 	text-align: center;
 	margin-top: auto;
 }
+/*############# Phylosophy and Appointments section ######################*/
 section.container {
 	max-width: 960px;
 	display: flex;
@@ -137,6 +141,7 @@ div.contact h1 {
 div.contact p {
 	line-height: 1.4;
 }
+/*############### Footer styles ###################*/
 footer {
 	display: flex;
 	width: 960px;
@@ -151,6 +156,7 @@ footer h2 {
 	display: block;
 	margin: auto 0;
 }
+/*############# Tablet styles ####################*/
 @media screen and (max-width: 1024px) {
 	nav {
 		padding-top: 0;
@@ -176,6 +182,7 @@ footer h2 {
 		width: 100%;
 	}
 }
+/*################## Mobile style ########################*/
 @media screen and (max-width: 640px) {
 	nav {
 		height: 17rem;
@@ -249,5 +256,6 @@ footer h2 {
 	}
 	footer img {
 		margin: auto;
+		padding: 4rem;
 	}
 }
